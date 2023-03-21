@@ -1,0 +1,45 @@
+.root {
+
+    :global {
+      .selected {
+        a {
+          background-color: #fe5f1e;
+        }
+      }
+  }
+  display: flex;
+  gap: 10px;
+  a {
+    border: 1px solid #fe5f1e;
+    border-radius: 100%;
+    padding: 8px 15px;
+    cursor: pointer;
+    &:hover {
+      background-color: #fe5f1e;
+    }
+  }
+  //   li {
+  //     border: 1px solid #fe5f1e;
+  //     border-radius: 100%;
+  //     padding: 8px 15px;
+  //     cursor: pointer;
+
+  //     &:hover {
+  //       background-color: #fe5f1e;
+  //     }
+  //   }
+  //   a {
+  //     &:hover {
+  //       color: #666;
+  //     }
+  //   }
+}
+
+// :global {
+//   .selected {
+//     li {
+//       background-color: #fe5f1e;
+//       color: #fff;
+//     }
+//   }
+// }
